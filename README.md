@@ -1,2 +1,0 @@
-# Aladdinshub
-An ecommerc platform
