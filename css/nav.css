@@ -433,7 +433,7 @@ img {vertical-align: middle;}
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px
 }
 .wrapping{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/aa.jpg);
     /*height: 500px;*/
 }
 body {
@@ -1210,7 +1210,7 @@ select option {
     background: #ff5212;
 }
 .nav-pills{
-    border-bottom: 2px solid #ff5212
+    /*border-bottom: 2px solid #ff5212*/
 }
 .nav-item{
     width: 100%;

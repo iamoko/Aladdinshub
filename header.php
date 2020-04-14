@@ -202,6 +202,16 @@ menuActive = false;
             e.preventDefault();
             $(this).tab('show');
         });
+
+        $("#myTablet a").click(function(e){
+            e.preventDefault();
+            $(this).tab('show');
+        });
+
+        $("#myTabletss a").click(function(e){
+            e.preventDefault();
+            $(this).tab('show');
+        });
     });
 </script>
 <style type="text/css">
@@ -295,8 +305,8 @@ menuActive = false;
                                     <div class="wishlist_text"><a href="#">Sign in<br>Join Free</a></div>
                                 </div>
                             </div>
-                            <div class="wishlist_icon" style="width: 90px;height: 40px;border: 1px solid #128607;text-align: center;padding-top: 8px;margin-right: 10px; background: #128607;color: white;font-size: 14px"><span>Get Quote</span></div>
-                            <div class="wishlist_icon" style="width: 90px;height: 40px;border: 1px solid #ff5212;text-align: center;padding-top: 8px;background: #ff5212;color: #fff;font-size: 14px"><span>SourcePro</span></div>
+                            <a href="" class="wishlist_icon" style="width: 90px;height: 40px;border: 1px solid #128607;text-align: center;padding-top: 8px;margin-right: 10px; background: #128607;color: white;font-size: 14px"><span>Get Quote</span></a>
+                            <a href="" class="wishlist_icon" style="width: 90px;height: 40px;border: 1px solid #ff5212;text-align: center;padding-top: 8px;background: #ff5212;color: #fff;font-size: 14px"><span>SourcePro</span></a>
 
                         </div>
                     </div>
