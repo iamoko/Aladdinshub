@@ -368,6 +368,28 @@ label{
 .photolia{
   width: 100px;height: 100px;margin:0 10px 10px 0 ;border-radius: 5px;
 }
+.prem{
+  padding: 12px;
+  background: #128607;color: white;font-size: 14px
+
+}
+.prem:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: #0a4a04
+}
+.rects{
+  padding: 0;
+  margin: 0 10px 10px 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid rgba(100,100,100,0.2);
+}
+.rects:hover{
+  text-decoration: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  border:none;
+}
                             </style>
 <div class="super_container"  style="background: #f2f3f7">
     <?php include 'header.php'; ?>
@@ -407,8 +429,11 @@ label{
 
 
                     <div class="bs-example col-md-10" style="width: 100%">
-                        <div class="tab-content" >
-                            <div class="tab-pane fade show active" id="menu1" style="">
+                        <div style="float: right;">
+                          <a href="" class="prem">Premium</a>
+                        </div>
+                        <div class="tab-content" style="margin-top: 40px">
+                            <div class="tab-pane fade" id="menu1">
                                 <p class="desc_head"><b>Dashboard</b></p>
                                  <!--Start row-->
                   <div class="row">
@@ -560,14 +585,32 @@ label{
 
 
 
-                           <div class="tab-pane fade" id="menu3">
+                           <div class="tab-pane fade show active" id="menu3">
                                 <a href="#popup1">
                                     <button class="btn btn-info"><i class="fa fa-plus"></i> <span> Add Product</span></button>
                                 </a>
                                 <div class="col-md-12" style="padding: 0;margin-top: 10px">
-                                     <div class="white-box">
+
+
+                                   <div class="row" style="margin-left: 30px">
+                                      <?php for($i=0;$i<12;$i++){ ?>
+                                      <a href="" class="col-md-36 rects">
+                                         <div class="col-md-12" style="padding: 0;">
+                                             <img src="images/aa.jpg" style="width: 100%;height: 170px;border-top-right-radius: 10px;border-top-left-radius: 10px">
+                                         </div>
+                                         <div style="height: 60px;overflow: hidden;">
+                                             <p class="recoms_title">Lenovo Ideapad 300 500gb Harddisk</p>
+                                         </div>
+                                         <div style="height: 40px;overflow: hidden;">
+                                             <p class="recoms_price"><b><span style="color: red">USD </span>499.99</b></p><b><span style="color: red">USD </span>499.99</b>
+                                         </div>
+                                      </a>
+
+                                  <?php } ?>
+                                  </div>
+                                     <!-- <div class="white-box"> -->
                                         
-                                         <div class="table-responsive">
+                                         <!-- <div class="table-responsive">
                                              <table class="table table-bordered">
                                               <thead>
                                                 <tr>
@@ -613,9 +656,9 @@ label{
                                                </tbody>
                                             </table>
                         
-                                         </div>
-                                     </div>
-                                     </div>
+                                         </div> -->
+                                     <!-- </div> -->
+                                </div>
 
 
 
